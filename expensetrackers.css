@@ -1,0 +1,117 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to right, #ece9e6, #ffffff);
+    color: #333;
+    margin: 100;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;    /* Center vertically */
+    min-height: 100vh;      /* Ensure it takes the full height of the viewport */
+  }
+  
+  /* Header */
+  .header {
+    text-align: center;
+    padding: 20px;
+    background: #6a5acd;
+    color: white;
+  }
+  
+  .header .logo {
+    font-size: 36px;
+    margin-right: 10px;
+  }
+  
+  /* Container */
+  .container {
+    background: #fff;
+    margin: 0; /* Remove any default margin */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%; /* Ensure it doesn’t exceed viewport width */
+    text-align: center;
+  }
+  
+  .balance-section {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .balance-amount {
+    font-size: 24px;
+    color: #2ecc71;
+  }
+  
+  .inc-exp-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  .money {
+    font-size: 18px;
+  }
+  
+  .form {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background: #6a5acd;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background: #5a4db7;
+  }
+  
+  /* Transaction List */
+  .transaction-list {
+    list-style: none;
+    margin-top: 30px;
+  }
+  
+  .transaction-list li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #f9f9f9;
+  }
+  
+  /* Pie Chart */
+  .chart-container {
+    margin-top: 30px;
+  }
+  
+  canvas {
+    margin: 0 auto;
+    display: block;
+  }
+  
